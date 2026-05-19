@@ -56,5 +56,24 @@ SELECT
 FROM cte
 ORDER BY hotel, year, cancellation_rate DESC;
 
+===========================================================================================================================================================
+  
+4. Repeat Guests vs Non-Repeat Guests Cancellation Rate
+
+WITH cte AS (
+SELECT
+  repeat_guest,
+  COUNT(*) AS total_counts,
+  COUNT(CASE WHEN canceled=0 THEN 1 END ) AS total_bookings,
+  COUNT(CASE WHEN canceled=1 THEN 1 END ) AS total_cancellations
+FROM hotel
+GROUP BY repeat_guest
+)
+SELECT
+    *,
+  ROUND(total_cancellation*100.0/(total_bookings + total_cancellation),2) AS cancel_pct
+FROM cte  
+
+
 
 
