@@ -71,9 +71,26 @@ GROUP BY repeat_guest
 )
 SELECT
     *,
-  ROUND(total_cancellation*100.0/(total_bookings + total_cancellation),2) AS cancel_pct
+  ROUND(total_cancellation*100.0/(total_bookings + total_cancellations),2) AS cancel_pct
 FROM cte  
 
+    
+===========================================================================================================================================================
+
+    
+5. Which Deposit Type Has the Highest Cancellation Rate?
 
 
-
+WITH cte AS (
+SELECT
+  deposit,
+  COUNT(*) AS total_counts,
+  COUNT(CASE WHEN canceled=0 THEN 1 END ) AS total_bookings,
+  COUNT(CASE WHEN canceled=1 THEN 1 END ) AS total_cancellations
+FROM hotel
+GROUP BY deposit
+)
+SELECT
+    *,
+  ROUND(total_cancellation*100.0/(total_bookings + total_cancellations),2) AS cancel_pct
+FROM cte 
