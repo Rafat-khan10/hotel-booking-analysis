@@ -65,7 +65,7 @@ Hotel cancellations directly impact revenue, resource planning, and operational 
 hotel-booking-analysis/
 │
 ├── dataset/
-│   └── hotel_bookings_clean.csv
+│   └── hotel_bookings.csv
 │
 ├── sql_queries/
 │   ├── data_overview.sql
@@ -92,7 +92,7 @@ hotel-booking-analysis/
 ## 🔍 Key Findings
 
 - 🏙️ **City Hotel** records a significantly higher cancellation rate of **42%**, compared to just **28%** for Resort Hotel
-- ⏳ **Very-Long lead time bookings (180+ days)** show the highest cancellation rate at **64%** for City Hotel — the longer the lead time, the higher the cancellation
+- ⏳ **Very-Long lead time bookings (180+ days)** show the highest cancellation rate at **64.20%** for City Hotel — the longer the lead time, the higher the cancellation
 - 👥 **Groups segment** has the highest cancellation rate across both hotels — **69.48%** for City Hotel and **43.05%** for Resort Hotel
 - 💳 **Non Refund deposit** bookings record a **99.36%** cancellation rate — contrary to expectations
 - 📅 **Revenue peaks in July–August** and contracts sharply in **Q4 (October–December)** due to seasonal demand decline
