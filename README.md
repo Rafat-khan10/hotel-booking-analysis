@@ -4,15 +4,14 @@
 
 ## 📌 Project Overview
 
-This project analyzes **3 years of hotel booking data (2015–2017)** from two hotel types — City Hotel and Resort Hotel — covering over **116,000 bookings** across multiple countries.
+This project analyzes hotel booking data spanning 2015–2017 from two hotel types — City Hotel and Resort Hotel — covering more than 116,000 bookings across multiple countries.
 
-Using **SQL (PostgreSQL)** and **Power BI**, the analysis uncovers cancellation patterns, revenue trends, guest behavior, and market segment performance to support data-driven decision-making for hotel management.
+Using **SQL (PostgreSQL)** and **Power BI**, I explored cancellation patterns, ADR trends, customer behavior, and market segment performance — and translated the findings into practical business recommendations.
 
 ---
-
 ## 📌 Business Problem
 
-Hotel cancellations directly impact revenue, resource planning, and operational efficiency. This project aims to identify the key drivers of cancellation behavior and revenue fluctuation — and provide actionable recommendations to reduce cancellation risk and maximize ADR (Average Daily Rate).
+High cancellation rates are a real problem for hotels — they affect revenue, room planning, and day-to-day operations. This project looks at what's actually driving cancellations across two hotel types, and what patterns exist in booking behavior, market segments, and pricing. The goal is to find practical ways to reduce cancellations and improve revenue performance.
 
 ---
 
@@ -25,11 +24,10 @@ Hotel cancellations directly impact revenue, resource planning, and operational 
 5. Which months record the highest and lowest ADR?
 6. How does revenue change month-over-month across years?
 7. Do repeat guests cancel less than new guests?
-8. Does room mismatch (reserved vs assigned) increase cancellations?
-9. Which customer types generate the highest ADR?
-10. What is the estimated revenue loss caused by cancellations?
+8. Which customer types generate the highest ADR?
+9. What is the estimated revenue loss caused by cancellations?
 
-> ✨ *...and additional insights derived from 15+ SQL queries.*
+> ✨ *...and additional insights derived from 12+ SQL queries.*
 
 ---
 
@@ -77,13 +75,6 @@ hotel-booking-analysis/
 ├── dashboard/
 │   └── hotel_booking_dashboard.pbix
 │
-├── screenshots/
-│   ├── cancellation_by_hotel.png
-│   ├── lead_time_cancellation.png
-│   ├── market_segment_analysis.png
-│   ├── monthly_adr_trend.png
-│   └── revenue_loss.png
-│
 └── README.md
 ```
 
@@ -104,14 +95,12 @@ hotel-booking-analysis/
 
 ## 💡 Business Recommendations
 
-1. **Implement stricter deposit policies** for bookings with lead times exceeding 90 days — particularly in the Very-Long segment where cancellation rates reach 64%
-2. **Target repeat guests with loyalty programs** to increase their share of total bookings — as they exhibit significantly lower cancellation rates
-3. **Review Non Refund pricing strategy** — despite deposit requirement, cancellation rate remains extremely high, suggesting guests are willing to forfeit deposits
-4. **Prioritize Corporate and Direct segments** for long-term revenue stability — both show consistently low cancellation rates
-5. **Implement seasonal promotions in Q4** to mitigate off-peak revenue loss driven by reduced demand in winter months
-6. **Apply stricter cancellation policies for Group bookings** — as this segment consistently records the highest cancellation rates across both hotel types
-
-> ⚠️ *Business Recommendations will be updated as analysis progresses.*
+1. **Stricter deposit policies for long lead-time bookings** — Bookings made 90+ days in advance cancel at a rate of 64%. Requiring a partial deposit up front could significantly reduce cancellation risk.
+2. **Loyalty programs for repeat guests** — Repeat guests cancel far less frequently than new guests. Personalized offers, occasional discounts, and exclusive benefits could encourage repeat bookings and improve customer retention.
+3. **Review the Non-Refund policy** — Surprisingly, Non-Refund bookings have a 99% cancellation rate. This indicates that the current pricing and cancellation policy may not be effectively discouraging cancellations and should be reviewed.
+4. **Focus on Corporate and Direct bookings** — These segments consistently show the lowest cancellation rates. Expanding these channels could help create a more stable and predictable revenue stream.
+5. **Seasonal promotions in Q4** — Revenue declines noticeably from October to December. Early-bird offers, winter packages, and targeted campaigns could help offset the seasonal drop in demand.
+6. **Stricter cancellation policies for Group bookings** — Group reservations show the highest cancellation rates, reaching nearly 70% in City Hotels. Higher deposits or shorter free-cancellation periods could help reduce cancellation risk.
 
 ---
 
@@ -120,7 +109,7 @@ hotel-booking-analysis/
 1. Clone this repository
 2. Download dataset from `dataset/` folder
 3. Create a new database in PostgreSQL
-4. Import `hotel_bookings_clean.csv` into a table named `hotel`
+4. Import `hotel_bookings.csv` into a table named `hotel`
 5. Run queries from `sql_queries/` folder
 6. Open `hotel_booking_dashboard.pbix` in Power BI Desktop
 
@@ -128,7 +117,7 @@ hotel-booking-analysis/
 
 ## 📬 Connect With Me
 
-**Rafat Khan** — Aspiring Data Analyst
+**Rafat Khan** — Data Analyst
 
 - 💼 LinkedIn: https://www.linkedin.com/in/rafat-khan-7215953a1/
 - 🐙 GitHub: https://github.com/Rafat-khan10
