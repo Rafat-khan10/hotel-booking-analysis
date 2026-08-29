@@ -120,9 +120,9 @@ hotel-booking-analysis/
 │   └── hotel_booking_dashboard.pbix
 │
 ├── screenshots/
-│   ├── executive_overview.png
-│   ├── cancellation_analysis.png
-│   └── revenue_customer_performance.png
+│   ├── page1_executive_overview.png
+│   ├── page2_cancellation_analysis.png
+│   └── page3_revenue_customer_performance.png
 │
 └── README.md
 ```
