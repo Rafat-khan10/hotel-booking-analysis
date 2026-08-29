@@ -85,19 +85,19 @@ Power BI Dashboard shows:
 ### Executive Overview
 High-level snapshot: total bookings, cancellation rate, confirmed bookings, and average ADR — with monthly revenue trend and bookings vs. cancellations by month.
 
-![Executive Overview]https://github.com/Rafat-khan10/hotel-booking-analysis/blob/main/screenshots/page1_executive_overview.png?raw=true
+![Executive Overview](./screenshots/page1_executive_overview.png)
 
 ### Cancellation Analysis
 Deep dive into cancellation drivers — lead time, market segment, and monthly cancellation trend.
 
-![Cancellation Analysis](./screenshots/cancellation_analysis.png)
+![Cancellation Analysis](./screenshots/page2_cancellation_analysis.png)
 
 ### Revenue & Customer Performance
 Revenue by market segment, estimated revenue lost to cancellations, and a customer-type performance summary (bookings, revenue share, ADR, cancellation rate, lead time).
 
-![Revenue & Customer Performance](./screenshots/revenue_customer_performance.png)
+![Revenue & Customer Performance](./screenshots/page3_revenue_customer_performance.png)
 
-📁 Interactive file: [`dashboard/hotel_booking_dashboard.pbix`](./dashboard/Hotel_Booking_Dashboard.pbix)
+📁 Interactive file: [`dashboard/Hotel_Booking_Dashboard.pbix`](./dashboard/Hotel_Booking_Dashboard.pbix)
 
 ---
 
@@ -117,7 +117,7 @@ hotel-booking-analysis/
 │   └── customer_behaviour_analysis.sql
 │
 ├── dashboard/
-│   └── hotel_booking_dashboard.pbix
+│   └── Hotel_Booking_Dashboard.pbix
 │
 ├── screenshots/
 │   ├── page1_executive_overview.png
@@ -160,7 +160,7 @@ hotel-booking-analysis/
 3. Create a new database in PostgreSQL
 4. Import `hotel_bookings.csv` into a table named `hotel`
 5. Run queries from `sql_queries/` folder
-6. Open `hotel_booking_dashboard.pbix` in Power BI Desktop
+6. Open `dashboard/Hotel_Booking_Dashboard.pbix` in Power BI Desktop
 
 ---
 
