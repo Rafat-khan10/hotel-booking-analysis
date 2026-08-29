@@ -85,7 +85,7 @@ Power BI Dashboard shows:
 ### Executive Overview
 High-level snapshot: total bookings, cancellation rate, confirmed bookings, and average ADR — with monthly revenue trend and bookings vs. cancellations by month.
 
-![Executive Overview](./screenshots/executive_overview.png)
+![Executive Overview]https://github.com/Rafat-khan10/hotel-booking-analysis/blob/main/screenshots/page1_executive_overview.png?raw=true
 
 ### Cancellation Analysis
 Deep dive into cancellation drivers — lead time, market segment, and monthly cancellation trend.
