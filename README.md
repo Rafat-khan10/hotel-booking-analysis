@@ -97,7 +97,7 @@ Revenue by market segment, estimated revenue lost to cancellations, and a custom
 
 ![Revenue & Customer Performance](./screenshots/revenue_customer_performance.png)
 
-📁 Interactive file: [`dashboard/hotel_booking_dashboard.pbix`](./dashboard/hotel_booking_dashboard.pbix)
+📁 Interactive file: [`dashboard/hotel_booking_dashboard.pbix`](./dashboard/Hotel_Booking_Dashboard.pbix)
 
 ---
 
