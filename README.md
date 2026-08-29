@@ -1,5 +1,7 @@
 # 🏨 Hotel Booking Performance & Cancellation Analysis
 
+**End-to-end data analysis project** covering 116,959 hotel bookings (2015–2017) across City Hotel and Resort Hotel properties in 178 countries, using **SQL (PostgreSQL)** for analysis and **Power BI** for visualization — with a focus on cancellation drivers, ADR trends, and customer segment performance.
+
 ---
 
 ## 📑 Table of Contents
@@ -7,7 +9,7 @@
 - [Project Overview](#-project-overview)
 - [Business Problem](#-business-problem)
 - [Key Business Questions Explored](#-key-business-questions-explored)
-- [Dataset](#️-dataset)
+- [Dataset](#-dataset)
 - [Tools & Tech Stack](#️-tools--tech-stack)
 - [Screenshots](#-screenshots)
 - [Key Findings](#-key-findings)
@@ -73,6 +75,32 @@ High cancellation rates are a real problem for hotels — they affect revenue, r
 
 ---
 
+## 📸 Screenshots
+
+Power BI Dashboard shows:
+- Revenue, ADR, and month-over-month growth trends
+- Cancellation drivers by lead time, market segment, and deposit type
+- Customer type and market segment revenue performance
+
+### Executive Overview
+High-level snapshot: total bookings, cancellation rate, confirmed bookings, and average ADR — with monthly revenue trend and bookings vs. cancellations by month.
+
+![Executive Overview](./screenshots/executive_overview.png)
+
+### Cancellation Analysis
+Deep dive into cancellation drivers — lead time, market segment, and monthly cancellation trend.
+
+![Cancellation Analysis](./screenshots/cancellation_analysis.png)
+
+### Revenue & Customer Performance
+Revenue by market segment, estimated revenue lost to cancellations, and a customer-type performance summary (bookings, revenue share, ADR, cancellation rate, lead time).
+
+![Revenue & Customer Performance](./screenshots/revenue_customer_performance.png)
+
+📁 Interactive file: [`dashboard/hotel_booking_dashboard.pbix`](./dashboard/hotel_booking_dashboard.pbix)
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -90,6 +118,11 @@ hotel-booking-analysis/
 │
 ├── dashboard/
 │   └── hotel_booking_dashboard.pbix
+│
+├── screenshots/
+│   ├── executive_overview.png
+│   ├── cancellation_analysis.png
+│   └── revenue_customer_performance.png
 │
 └── README.md
 ```
