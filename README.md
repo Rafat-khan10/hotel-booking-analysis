@@ -2,6 +2,22 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Business Problem](#-business-problem)
+- [Key Business Questions Explored](#-key-business-questions-explored)
+- [Dataset](#️-dataset)
+- [Tools & Tech Stack](#️-tools--tech-stack)
+- [Screenshots](#-screenshots)
+- [Key Findings](#-key-findings)
+- [Business Recommendations](#-business-recommendations)
+- [Repository Structure](#-repository-structure)
+- [How to Run](#️-how-to-run)
+- [Connect With Me](#-connect-with-me)
+
+---
+
 ## 📌 Project Overview
 
 This project analyzes hotel booking data spanning 2015–2017 from two hotel types — City Hotel and Resort Hotel — covering more than 116,000 bookings across multiple countries.
@@ -46,7 +62,7 @@ High cancellation rates are a real problem for hotels — they affect revenue, r
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -57,7 +73,7 @@ High cancellation rates are a real problem for hotels — they affect revenue, r
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
 ```
 hotel-booking-analysis/
