@@ -122,7 +122,7 @@ hotel-booking-analysis/
 ├── screenshots/
 │   ├── page1_executive_overview.png
 │   ├── page2_cancellation_analysis.png
-│   └── page3_revenue_customer_performance.png
+│   └──
 │
 └── README.md
 ```
